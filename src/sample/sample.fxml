@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="sample.Controller">
+    <children>
+        <Pane prefHeight="300.0" prefWidth="250.0">
+            <children>
+                <TextField alignment="TOP_CENTER" layoutX="76.0" layoutY="88.0" promptText="Log In" />
+                <PasswordField alignment="TOP_CENTER" layoutX="76.0" layoutY="124.0" promptText="Password" />
+                <Button layoutX="75.0" layoutY="158.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Log In" />
+                <Label alignment="CENTER" layoutX="76.0" layoutY="62.0" prefHeight="17.0" prefWidth="149.0" text="Enter the following" textAlignment="CENTER" />
+            <Button layoutX="76.0" layoutY="214.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Sign Up " />
+            <Label alignment="TOP_CENTER" layoutX="76.0" layoutY="190.0" prefHeight="17.0" prefWidth="149.0" text="or" textAlignment="CENTER" />
+            </children>
+        </Pane>
+    </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>
